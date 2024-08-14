@@ -1,0 +1,102 @@
+
+
+
+
+
+/* UserManagement.css */
+
+.user-management {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.user-management h1 {
+  text-align: center;
+  color: #296d2d;
+  font-size: 30px;
+}
+
+.user-management section {
+  margin: 20px 0;
+}
+
+.user-management h2 {
+  color: #7ab971;
+  font-size: 25px;
+}
+.user-management h3 {
+  color: #230cf1;
+  font-size: 25px;
+}
+.user-management ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-management .user-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.user-management .user-item strong {
+  color: #333;
+}
+
+.user-management .user-item button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 65px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.user-management .user-item button:hover {
+  background-color: #1e5721;
+}
+
+.user-management .user-item button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.user-management .user-item button.delete {
+  background-color: #e20f0f;
+}
+
+.user-management .user-item button.delete:hover {
+  background-color: #d61e1e;
+}
+
+.user-management .add-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-management .add-user input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.user-management .add-user button {
+  background-color: #230cf1;
+  text-align: center;
+  align-self: center;
+  color: white;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.user-management .add-user button:hover {
+  background-color:#3e3685;
+}
